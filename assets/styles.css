@@ -223,11 +223,11 @@ li {
     color: var(--bee-dark);
 }
 
-.instagram-button {
+.linkedin-button {
     display: inline-flex;
     align-items: center;
     gap: 0.75rem;
-    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(135deg, #0a66c2 0%, #004182 100%);
     color: white;
     padding: 1rem 2rem;
     border-radius: 50px;
@@ -235,16 +235,16 @@ li {
     font-weight: 600;
     font-size: 1.05rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(188, 24, 136, 0.3);
+    box-shadow: 0 4px 15px rgba(10, 102, 194, 0.3);
     margin-top: 1rem;
 }
 
-.instagram-button:hover {
+.linkedin-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(188, 24, 136, 0.4);
+    box-shadow: 0 6px 25px rgba(10, 102, 194, 0.4);
 }
 
-.instagram-button svg {
+.linkedin-button svg {
     width: 24px;
     height: 24px;
 }
